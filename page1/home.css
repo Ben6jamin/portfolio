@@ -7,3 +7,86 @@ body{
 
     background: #020307;
 }
+
+header{
+height: 47.720943450927734px;
+width: 1080px;
+left: 100px;
+top: 43px;
+border-radius: 0px;
+}
+
+/* Add a container to center the content */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: hsl(0, 17%, 94%);
+    text-decoration: none;
+  }
+  
+  li h3{
+    position: absolute;
+    width: 443px;
+    height: 139px;
+    left: 419px;
+    top: 175px;
+    
+
+    font-family: 'merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+li h5{
+    position: absolute;
+    width: 443px;
+    height: 139px;
+    left: 419px;
+    top: 175px;
+    padding:30px;
+
+    font-family: 'merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+
+    color: #01D5A2;
+}
+
+p{
+    position: absolute;
+    left: 47.42%;
+    right: 47.42%;
+    top: 6.11%;
+    bottom: 87.26%;
+
+    font-family: 'merriweather';
+    font-style: normal;
+    font-size: 20px;
+
+    color: #FFFFFF;
+}
