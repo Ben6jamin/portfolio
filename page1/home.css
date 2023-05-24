@@ -36,8 +36,12 @@ border-radius: 0px;
   }
   
   nav ul li a {
-    color: hsl(0, 17%, 94%);
+    color: hsl(0, 94%, 50%);
     text-decoration: none;
+  }
+
+  .right-elemnts{
+    background-color: #FFFFFF;
   }
   
   li h3{
