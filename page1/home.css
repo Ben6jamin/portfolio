@@ -91,26 +91,27 @@ p{
     color: #FFFFFF;
 }
 
-.circle {
+.circle-1 {
   margin: 20px;
-  padding: 1px;
+  position: absolute;
+  height: 248px;
+  width: 248px;
+  left: 516px;
+  top: 360px;
+  border-radius: 800px;
+  background: #0c0c0c;
+  border: 2px solid #01D5A2;
+}
+
+.circle-2 {
   position: absolute;
   width: 248px;
   height: 248px;
   left: 516px;
-  top: 360px;
-  border: 2px solid #01D5A2;
-  border-radius: 800PX;
-  background-color: hsl(0, 22%, 96%);
-  display: flex;
+  top: 370px;
+  border-radius: 800px;
+  
   background: url(Ben.jpg);
-  fill: 100%;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #000000;
-  box-shadow: 0px 4px 4px rgb(0,0,0,0.25);
-
-
-
+  border: 2px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
