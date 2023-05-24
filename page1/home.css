@@ -11,9 +11,9 @@ body{
 header{
 height: 47.720943450927734px;
 width: 1080px;
-left: 100px;
+left: 900px;
 top: 43px;
-border-radius: 0px;
+border-radius: 800px;
 }
 
 /* Add a container to center the content */
@@ -36,7 +36,7 @@ border-radius: 0px;
   }
   
   nav ul li a {
-    color: hsl(0, 94%, 50%);
+    color: #f1efef;
     text-decoration: none;
   }
 
@@ -78,7 +78,7 @@ li h5{
     line-height: 50px;
     text-align: center;
 
-    color: #01D5A2;
+    color: hwb(160 98% 1%);
 }
 
 p{
