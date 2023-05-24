@@ -7,45 +7,60 @@ body{
 
     background: #020307;
 }
+/* Add a container to center the content */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
 header{
 height: 47.720943450927734px;
-width: 1080px;
+width: 1237px;
 left: 900px;
 top: 43px;
-border-radius: 800px;
+border-radius: 900px;
 }
 
-/* Add a container to center the content */
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  nav ul {
-    list-style-type: none;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
-    padding: 5px;
-    color: #f1efef;
-    text-decoration: none;
-  }
+.left-elements  nav ul  {
+list-style-type: none;
+}
+.left-elements nav ul li{
+  display: inline;
+  margin-right: 1opx
 
-  .right-elemnts{
-    background-color: #FFFFFF;
+}
+.left-elements nav ul li a{
+margin-right: 2px;
+padding: 5px;
+color: #f1efef;
+text-decoration: none;
+
+
+}
+
+.right-elements nav ul{
+    list-style-type: none;
+    align-items: left;
+
   }
-  
+.right-elements nav ul li {
+  display: inline;
+  margin-left: 1px;
+}
+.right-elements nav ul li a{
+  align-items: left;
+  margin-left: 1px;
+  padding: 5px;
+  color: #f1efef;
+  text-decoration: none;
+}
+
   li h3{
+    margin: 30px;
     position: absolute;
     width: 443px;
     height: 139px;
@@ -104,7 +119,7 @@ p{
   left: 516px;
   top: 360px;
   border-radius: 800px;
-  background: #0c0c0c;
+  background: url(Ben.jpg);
   border: 2px solid #01D5A2;
 }
 
