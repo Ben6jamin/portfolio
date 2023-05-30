@@ -39,10 +39,14 @@ margin-right: 2px;
 padding: 5px;
 color: #f1efef;
 text-decoration: none;
-
+transition: transform 0.3s;
 
 }
 
+.left-elements:hover {
+  
+  transform: scale(1.1);
+}
 .right-elements nav ul{
     list-style-type: none;
     align-items: left;
@@ -58,6 +62,11 @@ text-decoration: none;
   padding: 5px;
   color: #f1efef;
   text-decoration: none;
+  transition: transform 0.3s;
+}
+.right-elements:hover {
+  
+  transform: scale(1.1);
 }
 
   li h3{
