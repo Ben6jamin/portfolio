@@ -157,9 +157,9 @@ h6 {
   left: 0;
   bottom: 0;
   width: 100%;
-  padding: 1px;
+  
   text-align: center;
-  border-top: 1px solid #0a0a0a;
+  
   color: #f3ebeb;
   display: flex;
   justify-content: center;
