@@ -5,7 +5,8 @@ body{
     left: 0px;
     top: 0px;
 
-    background: #020307;
+    background: url(home-bg.jpg);
+    background: fill;
     border-radius: 10px;
 }
 /* Add a container to center the content */
@@ -151,3 +152,17 @@ p{
 .circle-1:hover .circle-2 {
   transform: scale(1.1); /* Apply scaling effect only on circle-2 when hovering over circle-1 */
 }
+h6 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1px;
+  text-align: center;
+  border-top: 1px solid #0a0a0a;
+  color: #f3ebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+ }
