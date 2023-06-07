@@ -14,32 +14,14 @@ body{
         padding: 15px 0;
 		color: #D43F52;
     }
-.left .progress
-    {
-        border-radius: 4px;
-        background: #ffffff;
-        height: 4px;
-    }
-.left.progress .progress-bar-danger
-    {
-        background: #D43F52;
-    }
-.left .text-top
-    {
-        padding-top: 50px;
-    }
- .left span
-    {
-        color: #ffffff;
-        font-weight: bold;
-        display: block;
-        padding-bottom: 6px;
-    }
- .left small
-    {
-        font-weight: bold;
-        float: right;
-    }
+.skill {
+        margin-right: 10px;
+      }
+      
+.percentage {
+        color: #008000; /* Green color for percentage */
+      }
+      
 
 .contact-container {
         display: flex;
@@ -50,4 +32,10 @@ body{
 {
     flex: 2;
     padding: 100px;
+}
+
+.left{
+    align-items: center;
+    padding-bottom: 200px;
+
 }
