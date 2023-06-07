@@ -1,17 +1,53 @@
 body{
-    position: absolute;
-    width: 1280px;
-    height: 720px;
-    left: 0px;
-    top: 0px;
-
-    background: #020307;
-    border-radius: 10px;
+    
+	background: #000000;
+	color: #999;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
 }
 
-p{
-    font-family: "mirriweather";
-    font-size: medium;
-    font-style: oblique;
-    color: whitesmoke;
+
+
+#about h4
+    {
+        padding: 15px 0;
+		color: #D43F52;
+    }
+#about .progress
+    {
+        border-radius: 4px;
+        background: #ffffff;
+        height: 4px;
+    }
+#about .progress .progress-bar-danger
+    {
+        background: #D43F52;
+    }
+#about .text-top
+    {
+        padding-top: 50px;
+    }
+#about span
+    {
+        color: #ffffff;
+        font-weight: bold;
+        display: block;
+        padding-bottom: 6px;
+    }
+#about small
+    {
+        font-weight: bold;
+        float: right;
+    }
+
+.container {
+        display: flex;
+      }
+
+.right,
+.left
+{
+    flex: 2;
+    padding: 100px;
 }
