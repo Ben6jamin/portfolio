@@ -9,39 +9,39 @@ body{
 
 
 
-#about h4
+.right h4
     {
         padding: 15px 0;
 		color: #D43F52;
     }
-#about .progress
+.left .progress
     {
         border-radius: 4px;
         background: #ffffff;
         height: 4px;
     }
-#about .progress .progress-bar-danger
+.left.progress .progress-bar-danger
     {
         background: #D43F52;
     }
-#about .text-top
+.left .text-top
     {
         padding-top: 50px;
     }
-#about span
+ .left span
     {
         color: #ffffff;
         font-weight: bold;
         display: block;
         padding-bottom: 6px;
     }
-#about small
+ .left small
     {
         font-weight: bold;
         float: right;
     }
 
-.container {
+.contact-container {
         display: flex;
       }
 
