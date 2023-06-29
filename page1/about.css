@@ -1,6 +1,6 @@
 body{
     
-	background: #000000;
+	background:url(ground.jpg);
 	color: #999;
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
@@ -38,4 +38,47 @@ body{
     align-items: center;
     padding-bottom: 200px;
 
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+  padding: 120px;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.name {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.stars {
+  display: inline-block;
+  font-size: 20px;
+  color: #fd6868;
+}
+
+.star {
+  display: inline-block;
+  margin-right: 5px;
+}
+.filled {
+  position: relative;
+}
+
+.filled::before {
+  content: '\2605'; /* Unicode character for a filled star */
+  
+}
+
+.star::before {
+  content: '\2606'; /* Unicode character for an empty star */
 }

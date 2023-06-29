@@ -5,7 +5,7 @@ body{
     left: 0px;
     top: 0px;
 
-    background: url(home-bg.jpg);
+    background: url(ground.jpg);
     background: fill;
     border-radius: 10px;
 }
@@ -131,7 +131,7 @@ p{
   top: 360px;
   border-radius: 800px;
   background: rgb(7, 7, 7);
-  border: 2px solid #01D5A2;
+  border: 2px solid #f6faf9;
   overflow: hidden;
 }
 
