@@ -1,5 +1,5 @@
 body{
-  background-color: hsl(0, 0%, 5%);
+  background:url(wall.jpg);
 }
 
 .contact-container {
@@ -13,11 +13,11 @@ body{
   }
   
   .contact-info {
-    background-color: hsl(0, 0%, 5%);
+    background:url(wall.jpg);
   }
   
   .contact-form {
-    background-color: hsl(0, 0%, 5%);
+    background: hsl(0, 0%, 5%);
     border: 2px solid transparent;
     size: 80px;
     
